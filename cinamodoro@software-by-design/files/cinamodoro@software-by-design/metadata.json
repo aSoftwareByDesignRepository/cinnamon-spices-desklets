@@ -1,0 +1,12 @@
+{
+    "uuid": "cinamodoro@software-by-design",
+    "name": "Cinamodoro",
+    "description": "Cinamodoro - A desklet that displays a Pomodoro timer with work/break cycles",
+    "max-instances": "100",
+    "author": "alex@software-by-design.com",
+    "version": "1.0",
+    "prevent-decorations": true,
+    "comments": "A simple Pomodoro timer to help you stay focused",
+    "website": "https://github.com/aSoftwareByDesignRepository/cinamodoro",
+    "last-edited": 1698307200
+}

@@ -1,0 +1,76 @@
+{
+    "work-duration": {
+        "type": "spinbutton",
+        "default": 25,
+        "min": 1,
+        "max": 60,
+        "units": "minutes",
+        "description": "Work Duration",
+        "step": 1
+    },
+    "break-duration": {
+        "type": "spinbutton",
+        "default": 5,
+        "min": 1,
+        "max": 30,
+        "units": "minutes",
+        "description": "Break Duration",
+        "step": 1
+    },
+    "long-break-duration": {
+        "type": "spinbutton",
+        "default": 15,
+        "min": 1,
+        "max": 60,
+        "units": "minutes",
+        "description": "Long Break Duration",
+        "step": 1
+    },
+    "cycles-before-long-break": {
+        "type": "spinbutton",
+        "default": 4,
+        "min": 1,
+        "max": 10,
+        "description": "Number of Pomodoro Cycles before Long Break",
+        "step": 1
+    },
+    "font-size": {
+        "type": "spinbutton",
+        "default": 40,
+        "min": 10,
+        "max": 200,
+        "units": "px",
+        "description": "Font size",
+        "step": 1
+    },
+    "text-color": {
+        "type": "colorchooser",
+        "default": "rgb(255,255,255)",
+        "description": "Text color",
+        "tooltip": "Click the button to select a new text color"
+    },
+    "background-color": {
+        "type": "colorchooser",
+        "default": "rgba(0, 0, 0, 0.363)",
+        "description": "Background color",
+        "tooltip": "Click the button to select a new background color"
+    },
+    "play-sound": {
+        "type": "switch",
+        "default": true,
+        "description": "Play sound when timer ends",
+        "tooltip": "Enable/disable sound notification"
+    },
+    "auto-start-next-timer": {
+        "type": "switch",
+        "default": true,
+        "description": "Automatically start the next timer after the current one ends",
+        "tooltip": "Enable/disable automatic start of the next timer"
+    },
+    "show-notifications": {
+        "type": "switch",
+        "default": true,
+        "description": "Show notifications",
+        "tooltip": "Enable/disable notifications"
+    }
+}
